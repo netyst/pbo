@@ -7,7 +7,6 @@ public class BarangDemo {
         barang1.diskon = 0.1;
 
         barang1.displayInfo();
-        
     } 
 }
 
