@@ -1,5 +1,4 @@
-package InheritanceDemo;
-import testpackage.Pegawai;
+
 
 public class Dosen extends Pegawai {
     public String nidn;
@@ -11,9 +10,9 @@ public class Dosen extends Pegawai {
 
     public String getAllInfo(){
         String info = "";
-        info += "NIP    : " + this.nip + "\n";
-        info += "Nama   : " + this.nama + "\n";
-        info += "Gaji   : " + this.gaji + "\n";
+        info += "NIP    : " + super.nip + "\n";
+        info += "Nama   : " + super.nama + "\n";
+        info += "Gaji   : " + super.gaji + "\n";
         info += "NIDN   : " + this.nidn + "\n";
 
         return info;
