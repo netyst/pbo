@@ -1,5 +1,7 @@
 import java.time.LocalDate;
 
+import testpackage.Pegawai;
+
 public class Konsultasi {
     private LocalDate tanggal;
     private Pegawai dokter;
